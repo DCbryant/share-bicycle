@@ -1,0 +1,49 @@
+.header{
+    background-color: #fff;
+    .headerTop{
+        height: 60px;
+        line-height: 60px;
+        padding: 0 20px;
+        text-align: right;
+        a{
+            margin-left: 40px;
+        }
+    }
+    .breadcrumb{
+        padding-right: 20px;
+        height: 40px;
+        line-height: 40px;
+        border-top: 1px solid #f9c700;
+        .breadcrumbTitle{
+            font-size: 18px;
+            text-align: center;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                left: 74px;
+                top: 39px;
+                border-top: 9px solid #fff;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+            }
+        }
+        .weather{
+            text-align: right;
+            .date{
+                vertical-align: middle;
+            }
+            .weatherImg{
+                margin-left: 10px;
+                margin-right: 10px;
+                img{
+                    height: 14px;
+                    vertical-align: middle;
+                }
+            }
+            .weatherDetail{
+                
+            }
+        }
+    }
+}
